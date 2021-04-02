@@ -49,10 +49,10 @@ print("distance array", a, shodis)
 print("shortest distance", shodis)
 print("shortest path", city)
 
-###envolve of the whole distance
-plt.subplot(1, 1, 1)
-x = np.arange(0, len(result), 1)
-plt.plot(x, result)
+# ###envolve of the whole distance
+# plt.subplot(1, 1, 1)
+# x = np.arange(0, len(result), 1)
+# plt.plot(x, result)
 
 ##### draw the figure of the path
 city = list(city)
